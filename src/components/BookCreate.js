@@ -5,8 +5,8 @@ function BookCreate({ onCreate }) {
 
     const handleInputChange = (event) => {
         setTitle(event.target.value);
-        console.log(title);
     };
+    console.log(title);
 
     const handleSubmit = (event) => {
         event.preventDefault();
